@@ -1,8 +1,8 @@
-# **Langedu (Built on U2U Mainnet)**  
+# **Langedu (Built on Flow Testnet network)**  
 **A Decentralized App for Anonymous Language Exchange**  
 
 ## **Overview**  
-Langedu is a next-generation decentralized application (dApp) designed for anonymous language exchange, empowering global learners through blockchain security, AI-powered assessment, and personalized token incentives. Built on the **U2U Mainnet**, Langedu ensures secure, interactive, and rewarding language learning experiences while maintaining user privacy.  
+Langedu is a next-generation decentralized application (dApp) designed for anonymous language exchange, empowering global learners through blockchain security, AI-powered assessment, and personalized token incentives. Built on the **Flow Testnet network**, Langedu ensures secure, interactive, and rewarding language learning experiences while maintaining user privacy.  
 
 ## **Key Features**  
 
@@ -11,7 +11,7 @@ Langedu is a next-generation decentralized application (dApp) designed for anony
 - Full control over your personal data and interactions.  
 
 ### 🔹 **Blockchain Security & Tokenized Rewards**  
-- Built on **U2U**, ensuring tamper-proof and transparent interactions.  
+- Built on **Flow Testnet network**, ensuring tamper-proof and transparent interactions.  
 - Earn **Langedu tokens** for progress and engagement, supporting a **DeFi-driven learning ecosystem**.  
 - Trade or utilize tokens within the platform for premium learning resources.  
 
@@ -29,7 +29,7 @@ Langedu is a next-generation decentralized application (dApp) designed for anony
 - **Peer Review & Community Feedback:** Get corrections and insights from fellow learners.  
 - **NFT-Based Language Certificates:** Earn verifiable blockchain-based certificates upon course completion.  
 
-## **New Features in U2U Mainnet**  
+## **New Features in Flow Testnet network**  
 🚀 **Advanced AI Conversation Practice** – Engage in AI-powered dialogues for immersive learning.  
 📢 **Grammar & Pronunciation Checker** – Instant AI feedback on spoken and written input.  
 📚 **Custom Learning Paths** – Follow AI-suggested courses based on progress.  
@@ -44,7 +44,7 @@ Langedu is a next-generation decentralized application (dApp) designed for anony
 ✅ **Privacy-Focused** – Anonymity and security at the core of the platform.  
 
 ## **Add Langedu Token to Your Wallet**  
-Manually add **Langedu token** to your wallet on **U2U**:  
+Manually add **Langedu token** to your wallet on **Flow Testnet network**:  
 
 **Contract Address:** `0xFC6635d10e0E99f5ac2C7e89Fcd87057E6A5936e`  
 
