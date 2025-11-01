@@ -137,7 +137,7 @@ const DashboardPage = () => {
   }
 
   const donateInititate = async (claimAmt = 10) => {
-    const contractAddress = "0xFC6635d10e0E99f5ac2C7e89Fcd87057E6A5936e"
+    const contractAddress = "0x9d65a6F4568c1d02E0f6aA59fcaa03ECA3EcCe1A"
     if (typeof window.ethereum === "undefined") {
       console.log("Ethereum provider is not available.")
       throw new Error("Ethereum provider is not available.")
@@ -163,7 +163,7 @@ const DashboardPage = () => {
   const withdrawInititate = async () => {
     setShowDropdown(!showDropdown)
     const claimAmt = 25;
-    const contractAddress = "0xFC6635d10e0E99f5ac2C7e89Fcd87057E6A5936e"
+    const contractAddress = "0x9d65a6F4568c1d02E0f6aA59fcaa03ECA3EcCe1A"
     if (typeof window.ethereum === "undefined") {
       console.log("Ethereum provider is not available.")
       return
@@ -801,9 +801,30 @@ const DashboardPage = () => {
       {/* Toast Notification */}
       {toast && (
         <div
-          className={`fixed top-6 left-1/2 z-[9999] transform -translate-x-1/2 px-6 py-3 rounded-lg shadow-lg text-white font-medium transition-all duration-300
+          className={`fixed top-6 left-1/2 z-[9999] transform -translate-x-1/2 px-6 py-3 rounded-lg shadow-lg text-white font-medium transition-all duration-300 flex items-center gap-3
             ${toast.type === "info" ? "bg-blue-500" : toast.type === "success" ? "bg-green-600" : "bg-red-600"}`}
         >
+          {/* Spinning Icon */}
+          <svg
+            className="animate-spin h-5 w-5 text-white"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <circle
+              className="opacity-25"
+              cx="12"
+              cy="12"
+              r="10"
+              stroke="currentColor"
+              strokeWidth="4"
+            ></circle>
+            <path
+              className="opacity-75"
+              fill="currentColor"
+              d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+            ></path>
+          </svg>
           {toast.message}
         </div>
       )}
@@ -812,7 +833,7 @@ const DashboardPage = () => {
         <div className="max-w-6xl mx-auto px-4">
           <div className="flex justify-between items-center py-4">
             <Link href="/" className="text-2xl font-thin tracking-wide text-gray-900">
-              LangEdu
+              Lango
             </Link>
             <div className="flex items-center space-x-8">
               <div className="relative">
@@ -1224,7 +1245,7 @@ const DashboardPage = () => {
             </div>
           </div>
           <div className="border-t border-gray-200 mt-8 pt-8 flex flex-col md:flex-row md:justify-between items-center">
-            <p className="text-sm text-gray-600">© 2025 LangEdu. All rights reserved.</p>
+            <p className="text-sm text-gray-600">© 2025 Lango. All rights reserved.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-gray-600 hover:text-purple-600">
                 <span className="sr-only">Facebook</span>
